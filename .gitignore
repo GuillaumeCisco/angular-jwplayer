@@ -12,6 +12,7 @@ lib-cov
 pids
 logs
 results
+bower_components/*
 
 node_modules
 
