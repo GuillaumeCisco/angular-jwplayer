@@ -12,9 +12,6 @@ lib-cov
 pids
 logs
 results
-bower_components/*
 
 node_modules
-
-#Actually, need to track these for site to run on Github Pages..
 bower_components

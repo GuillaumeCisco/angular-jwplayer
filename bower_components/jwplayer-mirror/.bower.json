@@ -1,14 +1,24 @@
 {
-  "name": "jwplayer-mirror",
-  "homepage": "https://github.com/mimedia/jwplayer-mirror",
-  "version": "6.7.4071",
-  "_release": "6.7.4071",
+  "name": "JW Player Mirror",
+  "main": [
+    "jwplayer.flash.swf",
+    "jwplayer.js",
+    "README.md"
+  ],
+  "description": "Unofficial mirror of JW Player 7+",
+  "license": "",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "homepage": "https://github.com/GuillaumeCisco/jwplayer-mirror",
+  "_release": "8a19408b76",
   "_resolution": {
-    "type": "version",
-    "tag": "v6.7.4071",
-    "commit": "2d10708b3a9b595cc202be52959869848d6b6926"
+    "type": "branch",
+    "branch": "master",
+    "commit": "8a19408b76e3e78b6583791a86949b264f114b44"
   },
-  "_source": "git://github.com/mimedia/jwplayer-mirror.git",
-  "_target": "~6.7.4071",
-  "_direct": true
+  "_source": "git://github.com/GuillaumeCisco/jwplayer-mirror.git",
+  "_target": "master",
+  "_originalSource": "git://github.com/GuillaumeCisco/jwplayer-mirror.git"
 }
