@@ -1,5 +1,5 @@
 'use strict';
-angular.module('angular-jwplayer', []).directive('jwplayer', ['$compile', function ($compile) {
+angular.module('angular-jwplayer', []).directive('jwplayer', ['$rootScope', '$compile', function ($rootScope, $compile) {
     return {
         restrict: 'EC',
         scope: {
@@ -15,7 +15,9 @@ angular.module('angular-jwplayer', []).directive('jwplayer', ['$compile', functi
 
             element.html(getTemplate(id));
             $compile(element.contents())(scope);
-            jwplayer(id).setup(scope.setupVars);
+            jwplayer(id).setup(scope.setupVars).on('playlist', function () {
+                $rootScope.$emit('playlist_loaded', id);
+            });
         }
     };
 }]);

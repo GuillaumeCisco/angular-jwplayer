@@ -22,14 +22,6 @@ See `bower.json` and `index.html` in the `gh-pages` branch for a full list / mor
 
 
 ## Documentation
-####Note: You must include angular and jwplayer on the page as well.
-If you have a key for jwplayer just include it as you normally would according to their docs
-```html
-<script type="text/javascript" src="/scripts/jwplayer.js" ></script>
-<script type="text/javascript">jwplayer.key="YOUR_JW_PLAYER_KEY";</script>
-
-```
-
 Add any jwplayer setup options you want to an object in your angular controller.
 ```js
 angular.module('myApp').controller('HomeCtrl', ['$scope', function($scope) {

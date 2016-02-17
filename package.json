@@ -1,7 +1,7 @@
 {
-  "author": "David Sendelbach",
+  "author": "Guillaume Cisco",
   "name": "angular-jwplayer",
-  "version": "1.1.5",
+  "version": "1.2",
   "description": "angularjs directive wrapper for jwplayer video player.",
   "homepage": "",
   "dependencies": {},
@@ -32,6 +32,6 @@
   },
   "repository": "",
   "engines": {
-    "node": "0.10.10"
+    "node": "0.5.6"
   }
 }
